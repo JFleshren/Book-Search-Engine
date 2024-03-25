@@ -1,5 +1,7 @@
 body {
     font-family: 'Rubik', sans-serif;
+    background-color: #222;
+    color: #fff;
   }
   
   h1,
@@ -14,5 +16,34 @@ body {
   .small {
     font-weight: 300;
     font-style: italic;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .outlet-container {
+    padding: 20px;
   }
   
